@@ -5,6 +5,7 @@ on:
       - main
     paths:
       - 'packages/container/**'
+  workflow_dispatch:
 defaults:
   run:
     working-directory: packages/container
